@@ -1,0 +1,133 @@
+{
+  "status": "PASS_BOUNDED_INDEPENDENT_REVIEW",
+  "source_head": "1d943bc9e0718c8a2f15e1d0a22b73ad528ef0ca",
+  "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+  "four_matrix_products": {
+    "XY": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "UY": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "XV": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "UV": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "middle_ranks": [
+    2,
+    2
+  ],
+  "quotient_dimension": 1,
+  "domains": {
+    "rank_one_matrices": 9,
+    "outer_zero_sequences": 441,
+    "middle_zero_sequences": 3600,
+    "outer_placements": 126,
+    "outer_realizations": 55566,
+    "distinct_profiles": 9721
+  },
+  "literal_upper_words": {
+    "abcbabcb": [
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "acbabc": [
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "source_sha256": {
+    "certificates/selected-result.json": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+    "docs/research/agent-task-catalog.json": "d46eb6d5b3e279428753d770653663fbdf1063e55c255ea073d768f344927ef7",
+    "research/ut4-central-tariff-relaxation/PROOF.md": "4820f0771cc6d5828492bf8cb0bacda2a74d3f00b58a02b8df056ab1db040f21",
+    "research/ut4-mixed-central-middle/EXPECTED.json": "722b533241ee0a18aa9af8944036084f64bd16acfbb94c9ffa7df31da1671d76",
+    "research/ut4-mixed-central-middle/PROOF.md": "34a5dc532b9010b5e8afd67273a9d4b1cf17e1362f5f432c4b433581cc7784d5",
+    "research/ut4-mixed-central-middle/README.md": "459ddf394a84fabf4bb2b7b4bcb2d0003003d78a28285acc24f987ac3a43136e",
+    "research/ut4-mixed-central-middle/SOURCES.json": "1cb1fce19792ddb0eb9d0e6159c9199b4f58557bfa71d45f05569d06182e1730",
+    "research/ut4-mixed-central-middle/TASK.json": "7aa95a108e8fea4bbd5356b779851577ce13886baac4034b0f8b3f8e3b0b37d3",
+    "research/ut4-mixed-central-middle/VALIDATION.md": "c5711238b15a5fd1e40bff42c58bf21bdd3eab1a2d8ea2c782524dd79de1089e",
+    "research/ut4-mixed-central-middle/VERIFY.json": "2c41c9331501120fdc61fd2417a6dc897281c966aa5324b52bce2ec2edc41e1b",
+    "research/ut4-mixed-central-middle/test_package.py": "01412625623259394f52febc89143a5725d85a3b913fbb90a6d3868a4659c530",
+    "research/ut4-mixed-central-middle/verify.py": "b7f8167aaf1fd41de03255d7b7048b82e527f2c9252b3245d5648e5d89afb342",
+    "research/ut4-mixed-root-tariffs/PROOF.md": "c0def58338a69a57ac95f1d32a744993aa07656c46eba88a99354b276917bd8e",
+    "research/ut4-one-slack-workspace/PROOF.md": "a9e2c7e6f6841b0f9a53c65861c2e212c2bc126923d9e41f5723c530389e96cf",
+    "research/ut4-two-target-r2/search.py": "eaa1380c62866acfcae77ab7e53ed30d7c4e4319978a446a6f3bb86b65920117"
+  },
+  "findings": [],
+  "limits": "No producer executable imported. This bounded corroboration does not repeat the 5536-word census; root owns its complete rerun and formal follow-up. Arbitrary-workspace exclusion comes from the separately read quotient/rank/compression proof."
+}

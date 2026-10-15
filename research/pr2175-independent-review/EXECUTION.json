@@ -1,0 +1,32 @@
+[
+  {
+    "name": "full-census",
+    "command": [
+      "C:\\Users\\wilds\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-I",
+      "-O",
+      "-B",
+      "-W",
+      "error",
+      "$REVIEW\\source\\research\\ut4-mixed-central-middle\\verify.py",
+      "--emit",
+      "$REVIEW\\FRESH.json"
+    ],
+    "seconds": 24.486056400000052,
+    "exit_code": 0
+  },
+  {
+    "name": "semantic-tests",
+    "command": [
+      "C:\\Users\\wilds\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-I",
+      "-O",
+      "-B",
+      "-W",
+      "error",
+      "$REVIEW\\source\\research\\ut4-mixed-central-middle\\test_package.py"
+    ],
+    "seconds": 3.759739499999796,
+    "exit_code": 0
+  }
+]

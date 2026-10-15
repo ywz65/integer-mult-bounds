@@ -1,0 +1,18 @@
+{
+  "status": "PASS_FULL_FORMAL_CANDIDATE_AUDIT",
+  "source_head": "1d943bc9e0718c8a2f15e1d0a22b73ad528ef0ca",
+  "group_products": 4096,
+  "group_table_sha256": "e47cc03cfed17c3d4f90ebe079fe412c509f5a5b87e747c35bec232cd2a842c9",
+  "candidate_words": 5536,
+  "formal_survivors": 0,
+  "first_different_block": {
+    "0,0": 5536
+  },
+  "full_formal_transcript_sha256": "a2daef16e2489228bf381bbb8096d2ac972769a2a69ba428ec0571f88ca21f1b",
+  "producer_quotient_transcript_sha256": "118ea0c1edc09d94b02e90dce7a6bf6168f917b5d10f78a9d59ef77dd04703a8",
+  "full_upper_columns": 128,
+  "omitted_upper_controls": 14,
+  "wrong_label_controls": 1,
+  "noncommuting_order_control": true,
+  "scope": "Same authenticated candidate enumerator; separate dense group law and full group-ring endpoint arithmetic. No independent completeness or native claim."
+}
