@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "certificates/paired-cube-bit-input.json",
+    "references/partial-gauge/pr97/LICENSE",
+    "references/partial-gauge/pr97/NOTICE",
+    "references/partial-gauge/pr97/PROOF.md",
+    "references/partial-gauge/pr97/SOURCE.json",
+    "references/partial-gauge/pr97/bit-ledger-result.json",
+    "references/partial-gauge/pr97/check_frames.py",
+    "references/partial-gauge/pr97/check_lifted.py",
+    "references/partial-gauge/pr97/deferred-readout.tex",
+    "references/partial-gauge/pr97/deferred.py",
+    "references/partial-gauge/pr97/deferred_23.json.gz",
+    "references/partial-gauge/pr97/linalg.py",
+    "references/partial-gauge/pr97/round7_literal_frame_ledger.py",
+    "references/partial-gauge/pr97/witness_23.json.gz",
+    "research/bit-reuse-147/frames147.py",
+    "research/bit-reuse-147/word147.py",
+    "research/recycled-bit-integration/plan.json",
+    "scripts/partial_gauge_bit.py"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/replay.py",
+        "--scope",
+        "full",
+        "--guard-implementation",
+        "pr2560",
+        "--expect",
+        "{package}/PR2560-FULL-REPLAY.json"
+      ],
+      "timeout_seconds": 600,
+      "checks": "Exact published2560guard across149986 calls, all202190ledger containment moves, full typed mathematical receipt and actual caller omission control."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/test_guard.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Reference equality185matrices; omitted/dependent/modular-alias/mutation controls; unlucky-prime exact fallback and reference dispatch."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/test_sources.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Independent exported source drift rejects before import and assertion-disabled inherited replay rejects explicitly."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/review_pr2560.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Independent determinant-minor ranks and RREF on895 matrices,814 omissions,814 duplicates, two exact fallback routes and mutation rejection against the exact published guard."
+    }
+  ]
+}

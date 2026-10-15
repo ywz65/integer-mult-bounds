@@ -1,0 +1,98 @@
+{
+  "environment": {
+    "platform": "win32",
+    "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]"
+  },
+  "mathematical": {
+    "all_ledger_moves": 202190,
+    "ambient_width": 23,
+    "annihilator_sha256": "9fff79e77bc535fae150996de515b3f5f338de433bf4e34fc66d205e0c6d21b1",
+    "basis_sha256": "cd83fa2643011dfdaa5351e100c2743b874fdc228ebb57eba384a8408b32cd3d",
+    "caller_control": {
+      "dropped_basis_inside": true,
+      "dropped_nullity": 8,
+      "full_basis_inside": false,
+      "guard_rejection": "candidate basis is incomplete",
+      "omitted_vector": [
+        5,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "source_vector": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_key": [
+        "c",
+        10141,
+        [
+          0,
+          1
+        ]
+      ],
+      "target_rank": 14
+    },
+    "counters": {
+      "initialization_calls": 4473,
+      "kernel_calls": 149986,
+      "modular-dimension-certificate": 149986,
+      "returned_vectors": 1584540
+    },
+    "distinct_keys": 86789,
+    "distinct_targets": 85017,
+    "mode": "guarded",
+    "moves": 202190,
+    "scope": "full",
+    "source_head": "222063b96ec1a109a8c9f40e5d615498a737c6dd",
+    "source_pr": 2537
+  },
+  "status": "PASS_RECYCLED_NULLSPACE_COMPLETENESS",
+  "timing": {
+    "basis_and_target_seconds": 191.16355539999495,
+    "initialization_seconds": 154.2691882999934,
+    "inside_seconds": 11.939977900008671,
+    "null_callback_seconds": 115.22797399949923,
+    "optimized_kernel_seconds": 36.6738211025513
+  }
+}

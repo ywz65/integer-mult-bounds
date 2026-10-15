@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "runtime": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+  "source_sha256": "a3b8d2fabd57555e7de32f54d3d4389285bfaf788befad09c6e9efe401e8c39d",
+  "matrices": 895,
+  "valid_certificates": 895,
+  "omitted_rejected": 814,
+  "duplicate_rejected": 814,
+  "bad_prime_fallback": {
+    "basis": "diagonal",
+    "input": "exact"
+  },
+  "argument_mutation_rejected": true,
+  "nonintegral_input_rejected": true,
+  "basis_fallback": {
+    "basis": "exact",
+    "input": "modular"
+  },
+  "source_head": "6f981dfc414eda4bd17584a0f6d4f1fb3c5d6f04"
+}

@@ -1,0 +1,99 @@
+{
+  "environment": {
+    "platform": "win32",
+    "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]"
+  },
+  "mathematical": {
+    "all_ledger_moves": 202190,
+    "ambient_width": 23,
+    "annihilator_sha256": "77d80591d5008a135ed0032e9b0da7c356cca7b5453e3f7b704c6c996423d723",
+    "basis_sha256": "065b5d12fb8ea536a4880e0c56c8d444c12e05a98cb7890306b3c20f11c7463c",
+    "caller_control": {
+      "dropped_basis_inside": true,
+      "dropped_nullity": 2,
+      "full_basis_inside": false,
+      "guard_rejection": "candidate basis is incomplete",
+      "omitted_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "source_vector": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "target_key": [
+        "c",
+        15054,
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "target_rank": 20
+    },
+    "counters": {
+      "initialization_calls": 4473,
+      "kernel_calls": 5319,
+      "returned_vectors": 88992
+    },
+    "distinct_keys": 709,
+    "distinct_targets": 346,
+    "mode": "unguarded",
+    "moves": 400,
+    "scope": "sample",
+    "source_head": "222063b96ec1a109a8c9f40e5d615498a737c6dd",
+    "source_pr": 2537
+  },
+  "status": "PASS_RECYCLED_NULLSPACE_COMPLETENESS",
+  "timing": {
+    "basis_and_target_seconds": 1.2138067000050796,
+    "initialization_seconds": 139.62473349999345,
+    "inside_seconds": 0.03481070000270847,
+    "null_callback_seconds": 2.4876103000860894,
+    "optimized_kernel_seconds": 2.477123900418519
+  }
+}
