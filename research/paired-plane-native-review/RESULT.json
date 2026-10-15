@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "source_head": "c3c85ea8c226640334b1d2246071f230d81cc137",
+  "authenticated_files": 11,
+  "planes": 56,
+  "recipes": 280,
+  "gaussian_columns": 143360,
+  "public_input_arrays": 224,
+  "native_occurrences": {
+    "2": 112,
+    "7": 224
+  },
+  "rank_mass": 1792,
+  "copy_mass": 224,
+  "private_lifetimes": 112,
+  "peak_owned_private_arrays": 1,
+  "zero_saving_ratio": "293/292",
+  "semantic_controls": 5,
+  "positive_broadcast_control": true,
+  "limits": "Independent finite review of the exact direct block interface; no shared-decoder floor or global supplier admission."
+}

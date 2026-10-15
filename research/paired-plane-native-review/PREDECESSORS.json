@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "path": "source/EXPECTED.json",
+      "upstream_path": "research/paired-plane-native-payload/EXPECTED.json",
+      "head": "c3c85ea8c226640334b1d2246071f230d81cc137",
+      "sha256": "6858b1714b879269c3486249a10ff3eb0ff607d3cf7d48e66b9520408dd6daf7",
+      "git_blob": "c5f8ac9d502aa04b2b22deabafccce51084e394b"
+    },
+    {
+      "path": "source/README.md",
+      "upstream_path": "research/paired-plane-native-payload/README.md",
+      "head": "c3c85ea8c226640334b1d2246071f230d81cc137",
+      "sha256": "d542f9d302d052128b779c42609cf7ae7f03be5aa463ae163bf23a6e75bdcb23",
+      "git_blob": "ecc10947e95d2f85e03a07efc19f21d6c2d972bd"
+    },
+    {
+      "path": "source/SOURCES.json",
+      "upstream_path": "research/paired-plane-native-payload/SOURCES.json",
+      "head": "c3c85ea8c226640334b1d2246071f230d81cc137",
+      "sha256": "ecf04d1d2c8d025e24d88147375c4cc3bf98263e0d711b4e9f1b49ddf0c06065",
+      "git_blob": "d9fa0b6c79d1503e8c241b5bd2fabbc26a4e7a72"
+    },
+    {
+      "path": "source/TASK.json",
+      "upstream_path": "research/paired-plane-native-payload/TASK.json",
+      "head": "c3c85ea8c226640334b1d2246071f230d81cc137",
+      "sha256": "72ad431bee84d65754607a9fa7a9eca780ebbcc60dc1db94ae70b9b174a533dd",
+      "git_blob": "99baf671917b843786708573089f4b0fa9415434"
+    },
+    {
+      "path": "source/test_export.py",
+      "upstream_path": "research/paired-plane-native-payload/test_export.py",
+      "head": "c3c85ea8c226640334b1d2246071f230d81cc137",
+      "sha256": "0163b5e38fe0721dbf40e8ea54eecccc3b30d13bc2a735ba6fc99257494597ad",
+      "git_blob": "6154ff0c106c325ae3acc7a76c4e08f0a50ffd4f"
+    },
+    {
+      "path": "source/VERIFY.json",
+      "upstream_path": "research/paired-plane-native-payload/VERIFY.json",
+      "head": "c3c85ea8c226640334b1d2246071f230d81cc137",
+      "sha256": "2fe7e5ac3731105bef206c70fb06e0cd95247ffdc442591b1f364f408847e0a3",
+      "git_blob": "796d6edb775a36f6d349fb4b577837e49ad73a50"
+    },
+    {
+      "path": "source/verify.py",
+      "upstream_path": "research/paired-plane-native-payload/verify.py",
+      "head": "c3c85ea8c226640334b1d2246071f230d81cc137",
+      "sha256": "1fe5f5497424b8f479ce2e58b907ccaea674c7527e5f519ca939477b36ba828d",
+      "git_blob": "26e3cd0f0640d6e337b3d17efa0ed28f040084ea"
+    }
+  ]
+}

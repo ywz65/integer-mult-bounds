@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/community-frontier1094-audit/selected-replay.tar.gz",
+    "research/p104-native-channel/vendor/clifford_exact.py",
+    "research/p104-native-channel/vendor/native_verify.py",
+    "research/paired-plane-port-matching-seed6c563a/CERTIFICATE.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/audit.py"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Independent 280 recipes / 143360 Gaussian columns, actual matching, arbitrary dirty two-payload boundary, complete invoice and five semantic controls."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/replay_source.py"
+      ],
+      "timeout_seconds": 300,
+      "checks": "Exact unmodified original primary/export tests in a fresh Git-free source export; complete generated recipes/receipt and read-only byte comparison."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/test_audit.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Five Git-free integrity groups: positive/read-only replay, both source namespaces, recipe mutation, complete typed receipt corruption and authentication of actual copied export bytes."
+    }
+  ]
+}
