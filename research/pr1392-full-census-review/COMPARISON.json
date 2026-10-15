@@ -1,0 +1,48 @@
+{
+  "status": "PASS_FULL_PR1392_REPLAY_COMPARISON",
+  "four_package_files": 61,
+  "mandatory_inputs": 36,
+  "single_domains": 3064,
+  "single_moves": 1452893,
+  "single_ties": 1227676,
+  "single_strict_worse": 225217,
+  "single_delta_classes": 22,
+  "pair_totals": {
+    "WORSE_OR_EQUAL": 1379084,
+    "first_states": 327963,
+    "ordered_pairs": 59998,
+    "priced_second_classes": 1379084,
+    "second_literal_moves": 1580099
+  },
+  "pair_delta_classes": 93,
+  "candidate_digest": "b39d6d23210ab7eee24c04e165b078e39ea00053e4be4b523f7c793e24b79679",
+  "fresh_receipts": {
+    "primary-singles": "d623a08d13eefe7fe8a23b6e773b2fa79c4d65c8c7ec499d3a74b4cc0024ebbb",
+    "independent-singles": "98bddc7d48c91552d18bfc35cebaa09a238f6994e2f7c6017d3cb3817b6c1ed4",
+    "primary-pairs": "9f6c24188d65c98d996271c38ca657755ecd0e13680244ae616e9442859c6026",
+    "independent-pairs": "1ba7b0cf03d448d33e2dabcc15d080af19e9efe8c7f6415ded59e28c2759e75d"
+  },
+  "comparison_exclusions": {
+    "same_engine_singles": [
+      "elapsed"
+    ],
+    "same_engine_pairs": [
+      "timing"
+    ],
+    "between_single_engines": [
+      "elapsed",
+      "engine",
+      "endpoint_residuals",
+      "profile_deltas intervals (separately checked by enclosure)"
+    ],
+    "between_pair_engines": "Different engine metadata; all totals, transcript, classifications and frequencies exact; intervals by enclosure."
+  },
+  "receipt_controls": [
+    "incomplete",
+    "transcript",
+    "count",
+    "classification"
+  ],
+  "source_word_sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+  "fresh_receipt_hash_encoding": "UTF-8 bytes with CRLF normalized to LF; every JSON field, including runtime metadata, retained"
+}

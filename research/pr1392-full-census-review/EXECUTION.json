@@ -1,0 +1,78 @@
+{
+  "python": "Python 3.12.7",
+  "source_head": "bedd71af790bb151590be45599cb5bafe89d9723",
+  "runs": [
+    {
+      "name": "primary-singles",
+      "command": [
+        "python.exe",
+        "-I",
+        "-O",
+        "-B",
+        "research/pr1048-complete-feasibility/singles.py",
+        "--engine",
+        "primary",
+        "--out",
+        "$REVIEW\\fresh\\primary-singles.json"
+      ],
+      "returncode": 0,
+      "seconds": 36.844248100000016
+    },
+    {
+      "name": "independent-singles",
+      "command": [
+        "python.exe",
+        "-I",
+        "-O",
+        "-B",
+        "research/pr1048-complete-feasibility/singles.py",
+        "--engine",
+        "independent",
+        "--out",
+        "$REVIEW\\fresh\\independent-singles.json"
+      ],
+      "returncode": 0,
+      "seconds": 63.14871219999998
+    },
+    {
+      "name": "primary-pairs",
+      "command": [
+        "python.exe",
+        "-I",
+        "-O",
+        "-B",
+        "research/pr1048-complete-feasibility/pairs.py",
+        "--full",
+        "--time-budget",
+        "1800",
+        "--output",
+        "$REVIEW\\fresh\\primary-pairs.json"
+      ],
+      "returncode": 0,
+      "seconds": 793.8768802999999
+    },
+    {
+      "name": "independent-pairs",
+      "command": [
+        "python.exe",
+        "-I",
+        "-O",
+        "-B",
+        "research/pr1048-complete-feasibility/independent_pairs.py",
+        "--full",
+        "--time-budget",
+        "1800",
+        "--output",
+        "$REVIEW\\fresh\\independent-pairs.json"
+      ],
+      "returncode": 0,
+      "seconds": 278.09943880000014
+    }
+  ],
+  "bounded_runtime": "CPython 3.14.5 with NumPy 2.3.5; pricing, bounded coverage and separate checker passed. Initial CPython 3.12 bounded run lacked NumPy and stopped at coverage; all full censuses require only the standard library and passed on 3.12.7.",
+  "bounded_seconds": [
+    12.569,
+    59.785,
+    4.105
+  ]
+}

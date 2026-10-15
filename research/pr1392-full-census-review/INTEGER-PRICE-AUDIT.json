@@ -1,0 +1,56 @@
+{
+  "status": "PASS_THIRD_INTEGER_PRICE_AUDIT",
+  "scale_bits": 256,
+  "ln_terms": 110,
+  "exp_degree": 80,
+  "source_head": "bedd71af790bb151590be45599cb5bafe89d9723",
+  "reference_bracket": [
+    "1733427039589844234749/1000000000000000000000000",
+    "6933708158359376939/4000000000000000000000"
+  ],
+  "global_profile": {
+    "2": 400416,
+    "4": 26880,
+    "42": 288,
+    "6": 17376,
+    "7": 26784,
+    "1": 381024,
+    "3": 22752,
+    "5": 29376
+  },
+  "endpoint_intervals": [
+    [
+      "-84163949540578798770307514432106232579380405036024121554849/28948022309329048855892746252171976963317496166410141009864396001978282409984",
+      "-168327899081157597540615028864212465158760810072048164197889/57896044618658097711785492504343953926634992332820282019728792003956564819968"
+    ],
+    [
+      "5492776966508689142933191650741772343235503392009245705919/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+      "175768862928278052573862132823736714983536108544295941837601/57896044618658097711785492504343953926634992332820282019728792003956564819968"
+    ]
+  ],
+  "records": [
+    {
+      "file": "primary-singles.json",
+      "sha256": "c57613545602510a48f024457a1c2236e3ca3c658e6bd75977639fcc36797028",
+      "classes": 22,
+      "total": 1452893,
+      "ties": 1227676,
+      "strictly_worse": 225217
+    },
+    {
+      "file": "complete-pairs.json",
+      "sha256": "82501ea23b1bad277a666c0479a6016996d48481b2d09c40395d563ac75fb1d7",
+      "classes": 93,
+      "total": 1379084,
+      "ties": 1282055,
+      "strictly_worse": 97029
+    }
+  ],
+  "controls": {
+    "strict_improvement": "NEGATIVE",
+    "strict_worsening": "POSITIVE",
+    "exact_tie": "ZERO",
+    "omitted_surcharge_upper_endpoint": "NEGATIVE"
+  },
+  "limitations": "Checks arithmetic of complete retained receipts; full enumeration is separately rerun by the exact primary and independent programs. No new transport exclusion theorem or supplier admission."
+}

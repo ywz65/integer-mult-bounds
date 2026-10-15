@@ -1,0 +1,55 @@
+{
+  "status": "PASS_BOUNDED_INDEPENDENT_REVIEW_CHECKS",
+  "method": "No candidate executable imported. Direct literal word profile and ordered-pair inventory; 90-digit Decimal point checks only supplement the separate written outward-bound proof review.",
+  "operation_partition": {
+    "operations": 3064,
+    "repeated": 3064,
+    "disjoint": 9325034,
+    "overlapping": 59998,
+    "cross_section": 13054
+  },
+  "literal_profile": {
+    "1": 1323,
+    "2": 1342,
+    "3": 79,
+    "4": 44,
+    "5": 102,
+    "6": 11,
+    "7": 19
+  },
+  "arithmetic_point_sanity": [
+    {
+      "receipt": "primary-singles.json",
+      "classes": 22,
+      "counts": {
+        "ties": 1227676,
+        "strictly_worse": 225217
+      }
+    },
+    {
+      "receipt": "complete-pairs.json",
+      "classes": 93,
+      "counts": {
+        "ties": 1282055,
+        "strictly_worse": 97029
+      }
+    }
+  ],
+  "decimal_endpoint_residuals": [
+    "-2.90741621797960860450079283774887254054049416564554795212916028284E-18",
+    "3.03593905397180112469774243316661078009007245043094909349042755174E-18"
+  ],
+  "authenticated_files": 73,
+  "reviewed_files": {
+    "source\\research\\pr1048-complete-feasibility\\PROOF.md": "d3333b10a84cd79adcd3854eeb024c005892b524406e5912e077fa17652610a6",
+    "source\\research\\pr1048-complete-feasibility\\pairs.py": "50dbba217e7875724367240479044ec107853db93ac43f0ae9a2027bd155adbe",
+    "source\\research\\pr1048-complete-feasibility\\independent_pairs.py": "a1b5332fa9f8f31e9163f0cafdea4294cc57315d8ee2ebbb50011a3534097ac0",
+    "source\\research\\pr1048-complete-feasibility\\singles.py": "9b2ef8aa45278947961a518643d5dbf69df5d9892dcecc114c0ef34b6dee48d1",
+    "source\\research\\pr1048-certified-repair\\coverage.py": "cb2f0a360a0da7373b8a10de2ff288b2f68837fcfe353b7e94b152044920750b",
+    "source\\research\\pr1048-certified-repair\\independent.py": "e04e7364a4aa53f00d21271c71d33063a7fa27946bde1272dddd9c794177c1ea",
+    "source\\research\\pr1048-certified-repair\\PROOF.md": "435a200b781c4bbafec3755b35c79b73ed4d76c7cda35a0cd3285837d52a259e",
+    "integer_price_audit.py": "9c21a253e90a381919e31ff000e3def2e2ef3bd0d3be47110bddbc7087580d81",
+    "compare.py": "be1bb66498eed4d332c211b9bbc94fe97f085d2b39317873b755f8cfdada7b86"
+  },
+  "limits": "Does not rerun the expensive complete census. Decimal checks are numerical corroboration, not directed interval certification. Completeness still requires full primary/independent transcripts and root comparison."
+}
